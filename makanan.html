@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jabary - Website Budaya Jabar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f8535c9b97.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -16,9 +16,10 @@
     <nav class="navbar  navbar-expand-lg navbar-dark p-md-3 shrink">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/Jabary.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mx-auto"></div>
@@ -27,8 +28,9 @@
                         <a class="nav-link text-white" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Galeri
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Galeri
                         </a>
                         <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="pakaian.html">Pakaian</a></li>
@@ -55,10 +57,6 @@
         </div>
     </nav>
 
-
-
-
-
     <div class="container">
         <div class="pt-5">
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
@@ -78,235 +76,270 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h5 class="text-center px-3 isicaptionkategori">Keanekaragaman makanan khas Jawa Barat tak lepas dari dinamis masyarakat Sunda yang mendominasi wilayah tersebut. Makanan khas ini berkembang dan diperkenalkan dalam masyarakat secara turun-temurun.</h5>
+                        <h5 class="text-center px-3 isicaptionkategori">Keanekaragaman makanan khas Jawa Barat tak lepas
+                            dari dinamis masyarakat Sunda yang mendominasi wilayah tersebut. Makanan khas ini berkembang
+                            dan diperkenalkan dalam masyarakat secara turun-temurun.</h5>
                     </div>
                 </div>
             </div>
-
-
-
         </div>
-        <nav class="navbar  mb-3">
 
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <!-- Search bar -->
+        <nav class="navbar  mb-3">
+            <form class="d-flex" id="search-form">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                    id="search-query">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-
         </nav>
 
+        <!-- Main -->
+        <section id="search-holder">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5" id="search-result">
+            </div>
+        </section>
+        
+        <section id="main">
 
+            <div id="first-six">
+                <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-img-wrap ">
+                                <img src="https://cdn-2.tstatic.net/travel/foto/bank/images/karedok.jpg"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Karedok</h5>
+                                <p class="card-text ">
+                                    Karedok adalah makanan khas Jawa Barat berisikan macam-macam sayuran. Hidangan
+                                    sederhana
+                                    dan
+                                    sehat ini menggunakan bahan-bahan segar dan mentah, yang diiris dan disajikan dengan
+                                    saus
+                                    kacang tradisional.
+                                </p>
+                            </div>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap "><img src="https://cdn-2.tstatic.net/travel/foto/bank/images/karedok.jpg" class="card-img-top" alt="..."></div>
-
-                    <div class="card-body ">
-                        <h5 class="card-title">Karedok</h5>
-                        <p class="card-text ">
-                            Karedok adalah makanan khas Jawa Barat berisikan macam-macam sayuran. Hidangan sederhana dan sehat ini menggunakan bahan-bahan segar dan mentah, yang diiris dan disajikan dengan saus kacang tradisional.
-
-
-                        </p>
+                        </div>
                     </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-img-wrap ">
+                                <img src="https://cdn-cas.orami.co.id/parenting/images/nasi-timbel.width-800.jpegquality-80.jpg"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Nasi Timbel</h5>
+                                <p class="card-text">Nasi timbel adalah hidangan tradisional khas Jawa Barat. Olahan
+                                    sederhana
+                                    ini terbuat dari nasi yang dibungkus daun pisang, lalu dikukus hingga empuk. Nasi
+                                    timbel
+                                    jarang dimakan sendiri, biasanya disajikan dengan berbagai lauk,
+                                    seperti ayam goreng, ikan goreng, tahu, tempe, sayuran, sup, atau sambal.
+                                </p>
+                            </div>
 
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-img-wrap">
+                                <img src="https://cdn-cas.orami.co.id/parenting/original_images/makanan_khas_Sunda-batagor.jpg"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Batagor</h5>
+                                <p class="card-text">
+                                    Salah satu jajanan khas Jawa Barat adalah batagor yang merupakan akronim dari bakso,
+                                    tahu
+                                    goreng. Makanan ini terdiri dari pangsit ikan goreng yang disajikan dengan saus
+                                    pedas
+                                    tradisional. Ikan yang paling umum digunakan untuk membuat hidangan ini adalah
+                                    ikan tenggiri. Namun tidak jarang juga yang menggunakan ikan tuna, makarel, dan
+                                    udang.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-img-wrap">
+                                <img src="https://media.suara.com/pictures/653x366/2018/01/30/53193-resep-cilok-kenyal.jpg"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Cilok</h5>
+                                <p class="card-text">Makanan khas Jawa Barat ini terdiri dari bola-bola kenyal yang
+                                    berbahan
+                                    dasar tepung tapioka, ditambahkan udang kering, bawang putih, dan daun bawang. Cilok
+                                    adalah
+                                    singkatan dari aci dicolok. Aci adalah nama lain dari tepung tapioka.
+                                    Ukuran cilok mungkin berbeda-beda, tetapi umumnya camilan satu ini seukuran dengan
+                                    bakso.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-img-wrap"><img
+                                    src="https://www.resepistimewa.com/wp-content/uploads/empal-gentong.jpg"
+                                    class="card-img-top" alt="..."></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Empal Gentong</h5>
+                                <p class="card-text">
+                                    Empal gentong adalah makanan khas Jawa Barat, tepatnya dari Cirebon. Sup ini dimasak
+                                    dalam
+                                    pot yang terbuat dari tanah liat. Bahan-bahan empal gentong merupakan kombinasi
+                                    daging
+                                    sapi,
+                                    bawang merah, bawang putih, kemiri, kunyit, pala, santan, kecap manis,
+                                    cengkeh, serai, dan daun jeruk purut.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-img-wrap"> <img
+                                    src="https://asset-a.grid.id/crop/0x0:0x0/x/photo/2021/06/09/resep-kupat-tahu-menu-sarapan-n-20210609032448.jpg"
+                                    class="card-img-top" alt="..."></div>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Kupat Tahu</h5>
+                                <p class="card-text">Kupat tahu adalah makanan khas Jawa Barat yang terdiri dari ketupat
+                                    (sejenis kue beras) dan tahu dengan bumbu kacang. Bahan-bahan tambahan meliputi
+                                    tahu,
+                                    taoge,
+                                    cabai, kacang tanah, bawang putih, gula merah, air, dan kecap manis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="second-six">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-img-wrap "><img
+                                        src="https://asset.kompas.com/crops/xLIuatn9AsronlWRxPhOok86Pio=/46x0:967x614/750x500/data/photo/2021/05/10/6098d519744b7.jpg"
+                                        class="card-img-top" alt="..."></div>
+
+                                <div class="card-body ">
+                                    <h5 class="card-title">Rujak Cuka</h5>
+                                    <p class="card-text ">
+                                        Rujak cuka adalah makanan khas Jawa Barat lainnya. Rujak jenis ini dibuat dengan
+                                        bahan
+                                        utama
+                                        buah-buahan seperti mangga dan nanas mentah, serta sayuran seperti kol, taoge,
+                                        bengkuang,
+                                        dan mentimun.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-img-wrap "><img
+                                        src="https://cdn.idntimes.com/content-images/post/20210207/tahu-ffecba28de9bd66956ce95a94d76105c_600x400.jpg"
+                                        class="card-img-top" alt="..."></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pepes Tahu</h5>
+                                    <p class="card-text">Pepes tahu terdiri dari tahu dibumbui dan dikukus yang dimasak
+                                        dalam
+                                        daun
+                                        pisang. Bahan-bahannya meliputi tahu, paprika, daun bawang, dan bumbu terasi
+                                        yang
+                                        terdiri
+                                        dari bawang merah, bawang putih, gula, garam, dan cabai rawit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-img-wrap"> <img
+                                        src="https://img-global.cpcdn.com/recipes/aa77ae6951f5ecae/1200x630cq70/photo.jpg"
+                                        class="card-img-top" alt="..."></div>
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Nasi Tutug Oncom</h5>
+                                    <p class="card-text">Nasi tutug oncom atau kadang hanya disebut tutug oncom, adalah
+                                        makanan
+                                        khas
+                                        Jawa Barat yang terbuat dari nasi dicampur dengan kacang oncom yang
+                                        difermentasi.
+                                        Hidangan
+                                        ini berasal dari Tasikmalaya. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-img-wrap "><img
+                                        src="https://cdn.idntimes.com/content-images/community/2019/08/photopictureresizer-190813-053810336-crop-909x683-c5f2a8969fa20673af5e96bf6bf8dbe6_600x400.jpg"
+                                        class="card-img-top" alt="..."></div>
+
+                                <div class="card-body ">
+                                    <h5 class="card-title">Nasi Jamblang</h5>
+                                    <p class="card-text ">Nasi jamblang adalah salah satu makanan khas Cirebon yang
+                                        awalnya
+                                        disajikan untuk para pekerja paksa yang membangun Jalan Pos Besar dari Anyer
+                                        hingga
+                                        Panarukan, melewati Kabupaten Cirebon pada zaman pemerintahan Belanda.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-img-wrap "><img
+                                        src="https://1.bp.blogspot.com/-R8tRJ-KMCXU/YKC8-hoxjmI/AAAAAAAADrI/YRJkEh97krIeIInpHrglh17rD02aN58KQCLcBGAsYHQ/s750/Growolan.jpeg"
+                                        class="card-img-top" alt="..."></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Growolan</h5>
+                                    <p class="card-text">Growolan adalah makanan khas Cirebon yang terbuat dari olahan
+                                        gaplek
+                                        (singkong yang sudah dihaluskan lalu dijemur hingga kering) dan parutan kelapa.
+                                        Kata
+                                        growolan sendiri berasal dari bahasa Jawa yang berarti gumpalan atau kumpulan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-img-wrap">
+                                    <img src="https://pintarnesia.teknoinside.cyou/2020/04/Tari-Sintren.jpg "
+                                        class="card-img-top " alt="... ">
+                                </div>
+                                <div class="card-body ">
+                                    <h5 class="card-title ">Empal Gepuk</h5>
+                                    <p class="card-text ">
+                                        Makanan khas Sunda ini berbahan dasar daging yang di goreng bersama dengan bumbu
+                                        dan
+                                        kelapa.
+                                        Gepung ini sangat cocok dimakan bersama nasi yang masih hangat. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap "><img src="https://cdn-cas.orami.co.id/parenting/images/nasi-timbel.width-800.jpegquality-80.jpg" class="card-img-top" alt="..."></div>
-                    <div class="card-body">
-                        <h5 class="card-title">Nasi Timbel</h5>
-                        <p class="card-text">Nasi timbel adalah hidangan tradisional khas Jawa Barat. Olahan sederhana ini terbuat dari nasi yang dibungkus daun pisang, lalu dikukus hingga empuk. Nasi timbel jarang dimakan sendiri, biasanya disajikan dengan berbagai lauk,
-                            seperti ayam goreng, ikan goreng, tahu, tempe, sayuran, sup, atau sambal.
-                        </p>
-                    </div>
 
-                </div>
+            <div class="mb-5 text-center" id="more">
+                <button type="button" class="btn btn-success">Tampilkan Lainnya</button>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap"> <img src="https://cdn-cas.orami.co.id/parenting/original_images/makanan_khas_Sunda-batagor.jpg" class="card-img-top" alt="..."></div>
-
-                    <div class="card-body">
-                        <h5 class="card-title">Batagor</h5>
-                        <p class="card-text">
-                            Salah satu jajanan khas Jawa Barat adalah batagor yang merupakan akronim dari bakso, tahu goreng. Makanan ini terdiri dari pangsit ikan goreng yang disajikan dengan saus pedas tradisional. Ikan yang paling umum digunakan untuk membuat hidangan ini adalah
-                            ikan tenggiri. Namun tidak jarang juga yang menggunakan ikan tuna, makarel, dan udang.</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap"><img src="https://media.suara.com/pictures/653x366/2018/01/30/53193-resep-cilok-kenyal.jpg" class="card-img-top" alt="..."></div>
-
-                    <div class="card-body">
-                        <h5 class="card-title">Cilok</h5>
-                        <p class="card-text">Makanan khas Jawa Barat ini terdiri dari bola-bola kenyal yang berbahan dasar tepung tapioka, ditambahkan udang kering, bawang putih, dan daun bawang. Cilok adalah singkatan dari aci dicolok. Aci adalah nama lain dari tepung tapioka.
-                            Ukuran cilok mungkin berbeda-beda, tetapi umumnya camilan satu ini seukuran dengan bakso.
-
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap"><img src="https://www.resepistimewa.com/wp-content/uploads/empal-gentong.jpg" class="card-img-top" alt="..."></div>
-
-                    <div class="card-body">
-                        <h5 class="card-title">Empal Gentong</h5>
-                        <p class="card-text">
-                            Empal gentong adalah makanan khas Jawa Barat, tepatnya dari Cirebon. Sup ini dimasak dalam pot yang terbuat dari tanah liat. Bahan-bahan empal gentong merupakan kombinasi daging sapi, bawang merah, bawang putih, kemiri, kunyit, pala, santan, kecap manis,
-                            cengkeh, serai, dan daun jeruk purut.</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap"> <img src="https://asset-a.grid.id/crop/0x0:0x0/x/photo/2021/06/09/resep-kupat-tahu-menu-sarapan-n-20210609032448.jpg" class="card-img-top" alt="..."></div>
-
-                    <div class="card-body">
-                        <h5 class="card-title">Kupat Tahu</h5>
-                        <p class="card-text">Kupat tahu adalah makanan khas Jawa Barat yang terdiri dari ketupat (sejenis kue beras) dan tahu dengan bumbu kacang. Bahan-bahan tambahan meliputi tahu, taoge, cabai, kacang tanah, bawang putih, gula merah, air, dan kecap manis.</p>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap "><img src="https://asset.kompas.com/crops/xLIuatn9AsronlWRxPhOok86Pio=/46x0:967x614/750x500/data/photo/2021/05/10/6098d519744b7.jpg" class="card-img-top" alt="..."></div>
-
-                    <div class="card-body ">
-                        <h5 class="card-title">Rujak Cuka</h5>
-                        <p class="card-text ">
-                            Rujak cuka adalah makanan khas Jawa Barat lainnya. Rujak jenis ini dibuat dengan bahan utama buah-buahan seperti mangga dan nanas mentah, serta sayuran seperti kol, taoge, bengkuang, dan mentimun.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap "><img src="https://cdn.idntimes.com/content-images/post/20210207/tahu-ffecba28de9bd66956ce95a94d76105c_600x400.jpg" class="card-img-top" alt="..."></div>
-                    <div class="card-body">
-                        <h5 class="card-title">Pepes Tahu</h5>
-                        <p class="card-text">Pepes tahu terdiri dari tahu dibumbui dan dikukus yang dimasak dalam daun pisang. Bahan-bahannya meliputi tahu, paprika, daun bawang, dan bumbu terasi yang terdiri dari bawang merah, bawang putih, gula, garam, dan cabai rawit.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap"> <img src="https://img-global.cpcdn.com/recipes/aa77ae6951f5ecae/1200x630cq70/photo.jpg" class="card-img-top" alt="..."></div>
-
-                    <div class="card-body">
-                        <h5 class="card-title">Nasi Tutug Oncom</h5>
-                        <p class="card-text">Nasi tutug oncom atau kadang hanya disebut tutug oncom, adalah makanan khas Jawa Barat yang terbuat dari nasi dicampur dengan kacang oncom yang difermentasi. Hidangan ini berasal dari Tasikmalaya. </p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap "><img src="https://cdn.idntimes.com/content-images/community/2019/08/photopictureresizer-190813-053810336-crop-909x683-c5f2a8969fa20673af5e96bf6bf8dbe6_600x400.jpg" class="card-img-top" alt="..."></div>
-
-                    <div class="card-body ">
-                        <h5 class="card-title">Nasi Jamblang</h5>
-                        <p class="card-text ">Nasi jamblang adalah salah satu makanan khas Cirebon yang awalnya disajikan untuk para pekerja paksa yang membangun Jalan Pos Besar dari Anyer hingga Panarukan, melewati Kabupaten Cirebon pada zaman pemerintahan Belanda.
-
-
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap "><img src="https://1.bp.blogspot.com/-R8tRJ-KMCXU/YKC8-hoxjmI/AAAAAAAADrI/YRJkEh97krIeIInpHrglh17rD02aN58KQCLcBGAsYHQ/s750/Growolan.jpeg" class="card-img-top" alt="..."></div>
-                    <div class="card-body">
-                        <h5 class="card-title">Growolan</h5>
-                        <p class="card-text">Growolan adalah makanan khas Cirebon yang terbuat dari olahan gaplek (singkong yang sudah dihaluskan lalu dijemur hingga kering) dan parutan kelapa. Kata growolan sendiri berasal dari bahasa Jawa yang berarti gumpalan atau kumpulan.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-img-wrap">
-                        <img src="https://pintarnesia.teknoinside.cyou/2020/04/Tari-Sintren.jpg " class="card-img-top " alt="... "></div>
-
-                    <div class="card-body ">
-                        <h5 class="card-title ">Empal Gepuk</h5>
-                        <p class="card-text ">
-                            Makanan khas Sunda ini berbahan dasar daging yang di goreng bersama dengan bumbu dan kelapa. Gepung ini sangat cocok dimakan bersama nasi yang masih hangat. </p>
-                    </div>
-
-                </div>
-            </div>
-
-
-        </div>
-
-
-        <div class="mb-5 text-center "><button type="button " class="btn btn-success ">Tampilkan Lainnya</button></div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </section>
 
     <!-- footer -->
     <div class="container-fluid pt-5 footer ">
-
-
-
-
-
 
         <div class="container text-center text-md-start ">
 
@@ -315,16 +348,19 @@
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
 
                     <h6 class="text-uppercase fw-bold footertitle ">Jabary</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto gariskecilfooter " style="width: 60px; background-color: #f49f16; height: 2px " />
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto gariskecilfooter "
+                        style="width: 60px; background-color: #f49f16; height: 2px " />
                     <p class="text-white ">
-                        Sebuah website yang dibuat oleh seseorang yang tertarik dengan budaya Jawa Barat sejak masa kecil. Berisi tentang koleksi gambar maupun pengetahuan tentang kesenian dan budaya Jawa Barat.
+                        Sebuah website yang dibuat oleh seseorang yang tertarik dengan budaya Jawa Barat sejak masa
+                        kecil. Berisi tentang koleksi gambar maupun pengetahuan tentang kesenian dan budaya Jawa Barat.
                     </p>
                 </div>
 
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold footertitle ">Jelajahi</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; background-color: #f49f16; height: 2px " />
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto "
+                        style="width: 60px; background-color: #f49f16; height: 2px " />
                     <p>
                         <a href="index.html" class="linkfooter ">Home</a>
                     </p>
@@ -345,7 +381,8 @@
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold footertitle ">Kategori</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto gariskecilfooter " style="width: 60px; background-color: #f49f16; height: 2px " />
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto gariskecilfooter "
+                        style="width: 60px; background-color: #f49f16; height: 2px " />
                     <p>
                         <a href="pakaian.html" class="linkfooter ">Pakaian</a>
                     </p>
@@ -366,27 +403,22 @@
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 gariskecilfooter ">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold footertitle ">Kontak</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; background-color: #f49f16; height: 2px " />
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto "
+                        style="width: 60px; background-color: #f49f16; height: 2px " />
                     <p class="text-white "><i class="fas fa-home me-3 "></i>Tanjung Duren Selatan</p>
                     <p class="text-white "><i class="fas fa-envelope me-3 "></i>Ryanimm89@gmail.com</p>
                     <p class="text-white "><i class="fas fa-phone me-3 "></i>+ 62 81280309849</p>
-
                 </div>
                 <!-- Grid column -->
             </div>
             <!-- Grid row -->
         </div>
-
-
     </div>
 
-
-
-
-
-
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js "></script>
-
+    <script src="js/makanan.js"></script>
 </body>
 
 </html>
