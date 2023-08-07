@@ -7,7 +7,9 @@
     <title>Jabary - Website Budaya Jabar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f8535c9b97.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hubungi.css">
 
 </head>
 
@@ -15,7 +17,7 @@
     <!-- Navbar  -->
     <nav class="navbar  navbar-expand-lg navbar-dark p-md-3 shrink">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="img/Jabary.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="img/Jabary.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,7 +50,7 @@
                         <a class="nav-link text-white" href="ensiklopedia.html">Ensiklopedia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="hubungi.html">Hubungi kami</a>
+                        <a class="nav-link text-white" href="#">Hubungi kami</a>
                     </li>
                 </ul>
             </div>
@@ -56,115 +58,43 @@
     </nav>
 
 
+    <div class="container-contact100">
+        <div class="wrap-contact100">
+            <form class="contact100-form validate-form" action="#" name="submit-to-google-sheet">
+                <span class="contact100-form-title">
+                    Contact Us
+                </span>
 
-
-
-    <div class="container">
-        <div class="pt-5">
-            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="allgaleri.html">Galeri</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Pakaian</li>
-                </ol>
-            </nav>
-
-            <div class="kategoricaption mb-5">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="text-center fw-bold judulkategori">Pakaian</h1>
-                        <hr class="mx-auto" style="width:10%; background-color: #f49f16;">
-
-                    </div>
+                <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                    <input class="input100" type="text" name="name" placeholder="Full Name" required>
+                    <span class="focus-input100"></span>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <h5 class="text-center px-3 isicaptionkategori">Jawa barat adalah salah satu provinsi di tanah air yang mayoritas masyarakatnya berasal dari etnis Sunda. Sama seperti provinsi lain yang ada di Indonesia, Jawa Barat juga mempunyai beragam jenis pakaian adat yang biasa digunakan
-                            baik untuk kegiatan sehari-hari maupun untuk acara-acara tertentu. </h5>
-                    </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Please enter email: e@a.x">
+                    <input class="input100" type="text" name="email" placeholder="Email" required>
+                    <span class="focus-input100"></span>
                 </div>
-            </div>
 
+                <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+                    <textarea class="input100" name="message" placeholder="Your Message" required></textarea>
+                    <span class="focus-input100"></span>
+                </div>
 
-
-        </div>
-        <div class="mb-3">
-            <form class="d-flex" id="search-form">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="search-query">
-
+                <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn" type="submit">
+                        Send Email
+                    </button>
+                </div>
             </form>
+
+
         </div>
-
-        <!-- Main -->
-        <section id="search-holder">
-            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5" id="search-result">
-            </div>
-        </section>
-
-
-
-        <section id="main">
-
-
-            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5" id="barispakaian">
-
-
-
-            </div>
-
-
-            <div class="mb-5 text-center" id="more">
-                <button type="button" class="btn btn-success">Tampilkan Lainnya</button>
-            </div>
     </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
     <!-- footer -->
     <div class="container-fluid pt-5 footer ">
-
-
-
-
-
-
         <div class="container text-center text-md-start ">
 
             <div class="row ">
@@ -183,10 +113,10 @@
                     <h6 class="text-uppercase fw-bold footertitle ">Jelajahi</h6>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; background-color: #f49f16; height: 2px " />
                     <p>
-                        <a href="index.html " class="linkfooter ">Home</a>
+                        <a href="index.html" class="linkfooter ">Home</a>
                     </p>
                     <p>
-                        <a href="allgaleri.html " class="linkfooter ">Galeri</a>
+                        <a href="allgaleri.html" class="linkfooter ">Galeri</a>
                     </p>
                     <p>
                         <a href="berita.html" class="linkfooter ">Berita</a>
@@ -204,19 +134,19 @@
                     <h6 class="text-uppercase fw-bold footertitle ">Kategori</h6>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto gariskecilfooter " style="width: 60px; background-color: #f49f16; height: 2px " />
                     <p>
-                        <a href="pakaian.html " class="linkfooter ">Pakaian</a>
+                        <a href="pakaian.html" class="linkfooter ">Pakaian</a>
                     </p>
                     <p>
-                        <a href="Tarian.html " class="linkfooter ">Tarian</a>
+                        <a href="Tarian.html" class="linkfooter ">Tarian</a>
                     </p>
                     <p>
-                        <a href="makanan.html " class="linkfooter ">Makanan Daerah</a>
+                        <a href="makanan.html" class="linkfooter ">Makanan Daerah</a>
                     </p>
                     <p>
-                        <a href="bangunan.html " class="linkfooter ">Bangunan</a>
+                        <a href="bangunan.html" class="linkfooter ">Bangunan</a>
                     </p>
                     <p>
-                        <a href="tradisi.html " class="linkfooter ">Tradisi</a>
+                        <a href="tradisi.html" class="linkfooter ">Tradisi</a>
                     </p>
                 </div>
 
@@ -238,13 +168,9 @@
     </div>
 
 
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.6.0.js " integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin=" anonymous "></script>
     <script src="js/bootstrap.bundle.min.js "></script>
-    <script src="js/pakaian.js "></script>
+    <script src="js/hubungi.js"></script>
+
 
 </body>
 

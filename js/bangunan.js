@@ -69,36 +69,36 @@ function search(event) {
 }
 const Bangunan = [{
     name: "Imah Badak Heuay",
-    img_url: "img/galeri/bangunan1.jpg",
+    img_url: "img/Galeri/bangunan1.jpg",
     description: "Arti salah satu rumah adat Jawa Barat ini sangat unik, yaitu ‘badak yang sedang menguap’. Dinamakan demikian karena bentuk atap bagian belakang hingga tepiannya menyerupai badak yang sedang menguap."
 }, {
     name: "Imah Julang Ngapak",
-    img_url: "img/galeri/bangunan2.jpg",
+    img_url: "img/Galeri/bangunan2.jpg",
     description: "Imah Julang Ngapak dalam bahasa Indonesia berarti ‘burung yang sedang mengepakkan sayapnya’. Dinamakan demikian karena bentuk atapnya menyerupai burung yang sedang mengepakkan sayap."
 }, {
     name: "Perahu Kumareb",
-    img_url: "img/galeri/bangunan3.jpg",
+    img_url: "img/Galeri/bangunan3.jpg",
     description: " Arti dari kata parahu kumureb adalah perahu yang terbalik. Itulah sebabnya bentuk atap dari jenis rumah adat ini mirip dengan bentuk perahu yang terbalik."
 }, {
     name: "Jubleg Nangkup",
-    img_url: "img/galeri/bangunan4.jpg",
+    img_url: "img/Galeri/bangunan4.jpg",
     description: "Rumah adat suku Sunda yang terakhir yaitu rumah adat Jubleg Nangkub. Jika dilihat secara sekilas, rumah adat ini terlihat mirip dengan rumah adat Parahu Kamureb. Secara harfiah, rumah adat ini memiliki makna lesung (alat menumbuk padi) yang menelungkup. Rumah adat Jubleg Nangkub merupakan sebuah simbol kepribadian masyarakat yang sopan, ramah, dan bersahaja."
 }, {
     name: "Tagong Anjing",
-    img_url: "img/galeri/bangunan5.jpeg",
+    img_url: "img/Galeri/bangunan5.jpeg",
     description: ` Nama dari rumah ini memiliki arti yaitu anjing yang sedang duduk. Bentuk atapnya yaitu segitiga, dan bagian atap yang lainnya mengarah ke depan sehingga bentuknya mirip dengan pose anjing yang sedang duduk.`
 }, {
     name: "Jolopong",
-    img_url: "img/galeri/bangunan6.jpeg",
+    img_url: "img/Galeri/bangunan6.jpeg",
     description: `Rumah adat “Jolopong” memiliki bentuk atap yang lebih sederhana yang berbentuk memanjang seperti pelana. Desain serta material atap yang digunakan pun jauh lebih sederhana dibanding jenis rumah adat lainnya, sehingga pembangunannya
     pun lebih mudah`
 }, {
     name: "Capit Gunting",
-    img_url: "img/galeri/bangunan7.jpg",
+    img_url: "img/Galeri/bangunan7.jpg",
     description: `  Bentuk atap pada rumah adat Sunda ini mirip dengan bentuk gunting, sehingga dinamakan capit gunting. Sedangkan pada bagian ujung atapnya berbentuk saling silang yang kemudian menyisakan hasil persilangan, di antara kayu dengan bambu.`
 }, {
     name: "Buka Pongkok",
-    img_url: "img/galeri/bangunan8.jpg",
+    img_url: "img/Galeri/bangunan8.jpg",
     description: `Pintu masuk yang posisinya sejajar dengan salah satu ujung susuhunan atau atap rumah, menjadi alasan mengapa rumah adat Suku Sunda ini disebut dengan rumah adat Buka Pongpok.`
 }, {
 
