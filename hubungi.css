@@ -89,7 +89,7 @@ iframe {
     top: 0;
     left: 0;
     pointer-events: none;
-    background-image: url('../img/Index/wayang.jpg');
+    background-image: url('img/Index/wayang.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
